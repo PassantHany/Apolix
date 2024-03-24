@@ -1,0 +1,48 @@
+.body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.pad {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.head1 {
+  font-size: 90px;
+}
+
+.head2 {
+  font-size: 30px;
+}
+.arrowIcon {
+  width: 70px;
+  height: 70px;
+  padding-top: 16px;
+}
+.head3 {
+  margin-top: 50px;
+}
+
+#demo {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: rgba(255, 255, 255, 0.1);
+  border-width: 100px;
+}
+#demo:hover {
+  transform: scale(1.1);
+  background-color: white;
+}
+#span:hover {
+  color: black;
+}
+#icon {
+  color: greenyellow;
+}
+.custom-dropdown .dropdown-menu {
+  background-color: transparent !important;
+  border: rgba(255, 255, 255, 0.1) !important;
+}
+.custom-dropdown .dropdown-toggle::after {
+  display: none !important;
+}

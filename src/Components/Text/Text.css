@@ -1,0 +1,66 @@
+.body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.pad {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.nav {
+  align-items: center;
+  margin-left: 50px;
+}
+
+.head1 {
+  font-size: 90px;
+  color: aliceblue;
+  margin-bottom: 30px;
+}
+
+.head2 {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+}
+.arrowIcon {
+  width: 70px;
+  height: 70px;
+  padding-top: 16px;
+  color: white;
+}
+.head3 {
+  margin-top: 50px;
+  color: white;
+  margin-bottom: 50px;
+}
+.AutoPlay {
+  color: white;
+}
+
+#demo {
+  /* background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.1);
+  border: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.1); */
+}
+
+/* .circular-icon-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(360deg);
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+} */
+
+.circular-icon {
+  font-size: 40px;
+  color: white;
+  margin-left: 650px;
+}
+
+/* .nav-link-container:hover .circular-icon-overlay {
+  opacity: 1;
+  transform: translate(-50%, -50%) rotate(0deg);
+}  */
